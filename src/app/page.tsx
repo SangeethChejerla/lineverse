@@ -121,8 +121,8 @@ export default function Home() {
             Home
           </Button>
           <Button
-            variant={pathname === '/view-list' ? 'default' : 'ghost'}
-            onClick={() => router.push('/view-list')}
+            variant={pathname === '/view' ? 'default' : 'ghost'}
+            onClick={() => router.push('/view')}
             className="mr-2"
           >
             View List
