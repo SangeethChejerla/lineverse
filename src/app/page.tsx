@@ -244,10 +244,10 @@ export default function Home() {
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             className="text-center border-none shadow-md"
-            maxLength={25}
+            maxLength={250}
           />
           <div className="text-sm mt-1 text-gray-500 text-right pr-4">
-            {inputText.length} / 25
+            {inputText.length} / 250
           </div>
         </div>
 
